@@ -1,0 +1,33 @@
+POST http://localhost:3332/videos
+//precisa incluir para informar que está enviando em formato json.
+Content-Type: application/json
+
+
+{
+    "title": "video 02",
+    "description": "Node.js para sair do zero",
+    "duration": 180
+}
+
+//as cerquilhas são para separar e entender qual a rota está sendo chamada
+###
+
+GET http://localhost:3332/videos
+
+
+//as cerquilhas são para separar e entender qual a rota está sendo chamada
+###
+PUT http://localhost:3332/videos/988b5dfd-40d4-4020-b387-b9d025469f20
+//precisa incluir para informar que está enviando em formato json.
+Content-Type: application/json
+
+
+{
+    "title": "video 51",
+    "description": "Node.js",
+    "duration": 200
+}
+
+//as cerquilhas são para separar e entender qual a rota está sendo chamada
+###
+DELETE http://localhost:3332/videos/f7d0fe37-c81f-4849-866f-aa53df5f6485
