@@ -1,4 +1,4 @@
-POST http://localhost:3332/videos
+POST https://node-do-zero-3giw.onrender.com/videos
 //precisa incluir para informar que está enviando em formato json.
 Content-Type: application/json
 
@@ -12,12 +12,12 @@ Content-Type: application/json
 //as cerquilhas são para separar e entender qual a rota está sendo chamada
 ###
 
-GET http://localhost:3332/videos
+GET https://node-do-zero-3giw.onrender.com/videos
 
 
 //as cerquilhas são para separar e entender qual a rota está sendo chamada
 ###
-PUT http://localhost:3332/videos/988b5dfd-40d4-4020-b387-b9d025469f20
+PUT https://node-do-zero-3giw.onrender.com/videos/988b5dfd-40d4-4020-b387-b9d025469f20
 //precisa incluir para informar que está enviando em formato json.
 Content-Type: application/json
 
@@ -30,4 +30,4 @@ Content-Type: application/json
 
 //as cerquilhas são para separar e entender qual a rota está sendo chamada
 ###
-DELETE http://localhost:3332/videos/f7d0fe37-c81f-4849-866f-aa53df5f6485
+DELETE https://node-do-zero-3giw.onrender.com/videos/f7d0fe37-c81f-4849-866f-aa53df5f6485

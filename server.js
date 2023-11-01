@@ -58,7 +58,6 @@ server.post('/videos', async (request, reply) => {
 
     return reply.status(201).send()
 })
-
 //rotas do get 
 server.get('/videos', async (request) => {
     
@@ -68,7 +67,6 @@ server.get('/videos', async (request) => {
 
     return videos
 })
-
 //router parameter - utiliza o ID para saber qual video será editado
 server.put('/videos/:id', async (request, reply) => {
     const videoId = request.params.id
@@ -83,7 +81,6 @@ server.put('/videos/:id', async (request, reply) => {
     return reply.status(204).send()
 
 })
-
 //Deletando as informações do banco
 server.delete('/videos/:id', async (request, reply) => {
     const videoId = request.params.id
