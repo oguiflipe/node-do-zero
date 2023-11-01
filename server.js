@@ -100,5 +100,6 @@ server.delete('/videos/:id', async (request, reply) => {
 
 //configurando a porta e rota de acesso
 server.listen({
+    host: '0.0.0.0',
     port: process.env.PORT ?? 3332,
 })
