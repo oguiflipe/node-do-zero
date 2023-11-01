@@ -84,7 +84,7 @@ server.put('/videos/:id', async (request, reply) => {
 
 })
 
-
+//Deletando as informações do banco
 server.delete('/videos/:id', async (request, reply) => {
     const videoId = request.params.id
 
