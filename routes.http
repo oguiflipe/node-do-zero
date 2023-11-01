@@ -2,7 +2,6 @@ POST https://node-do-zero-3giw.onrender.com/videos
 //precisa incluir para informar que está enviando em formato json.
 Content-Type: application/json
 
-
 {
     "title": "video 02",
     "description": "Node.js para sair do zero",
@@ -11,7 +10,6 @@ Content-Type: application/json
 
 //as cerquilhas são para separar e entender qual a rota está sendo chamada
 ###
-
 GET https://node-do-zero-3giw.onrender.com/videos
 
 
@@ -20,7 +18,6 @@ GET https://node-do-zero-3giw.onrender.com/videos
 PUT https://node-do-zero-3giw.onrender.com/videos/988b5dfd-40d4-4020-b387-b9d025469f20
 //precisa incluir para informar que está enviando em formato json.
 Content-Type: application/json
-
 
 {
     "title": "video 51",

@@ -2,7 +2,6 @@
 
 //import { createServer } from 'node:http'
 
-
 //const server = createServer((request, response) => {
 //    console.log('oi')
 
@@ -11,11 +10,7 @@
 
 //server.listen(3332)
 
-
 // localhost:3332
-
-
-
 
 
 //Escrito em fastify - biblioteca 
@@ -27,7 +22,6 @@ PUT (para atualizar informações)
 DELETE (deletar algo)
 PATCH (Atualizar algo espefifico e não todos os dados)
 */
-
 
 import { fastify } from 'fastify'
 import { DatabasePostgres } from './database-postgres.js'
@@ -44,7 +38,6 @@ const database = new DatabasePostgres()
 //const database = new DatabaseMemory()
 
 //criando a rota
-
 //criando os dados com o request body : sempre usar quando for post e put
 server.post('/videos', async (request, reply) => {
 

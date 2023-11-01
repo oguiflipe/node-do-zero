@@ -9,8 +9,7 @@ import postgres from 'postgres';
 // Do not expose your Neon credentials to the browser
 // .env
 
-
-// app.js
+//app.js
 
 let { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, ENDPOINT_ID } = process.env;
 
